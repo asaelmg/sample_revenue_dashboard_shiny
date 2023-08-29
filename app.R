@@ -83,7 +83,7 @@ server <- function(input, output) {
     valueBox(
       formatC(total.revenue, format="d", big.mark=',')
       ,'Total Expected Revenue'
-      ,icon = icon("gbp",lib='glyphicon')
+      ,icon = icon("usd",lib='glyphicon')
       ,color = "green")
     
   })
